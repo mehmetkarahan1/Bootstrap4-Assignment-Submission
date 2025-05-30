@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #007bff, #66b2ff);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
